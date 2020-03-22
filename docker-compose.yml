@@ -1,0 +1,12 @@
+version: "3.2"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - MONGODB_URI=mongodb://host.docker.internal:27017/roche_assign
+    image: latest
+    ports:
+      - "8080:8080"
