@@ -36,8 +36,7 @@ git clone https://github.com/praveenr78/roche-assignment.git
 4. The apps should then startup cleanly if you run
 
 ```sh
-docker-compose build
-docker-compose up
+docker-compose up --build
 ```
 
 5. Roche assignment application will start at http://localhost:8080 
