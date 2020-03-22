@@ -40,7 +40,7 @@ docker-compose build
 docker-compose up
 ```
 
-5. Roche assignment application will be start on http://localhost:8080 
+5. Roche assignment application will start at http://localhost:8080 
 
 6. Swagger docs at http://localhost:8080/swagger-ui/index.html?url=/v3/api-docs&validatorUrl=#/
 
@@ -52,12 +52,6 @@ For further reference, please consider the following sections:
 * [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.2.5.RELEASE/reference/htmlsingle/#using-boot-devtools)
 * [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/2.2.5.RELEASE/reference/htmlsingle/#production-ready)
 * [Spring Data MongoDB](https://docs.spring.io/spring-boot/docs/2.2.5.RELEASE/reference/htmlsingle/#boot-features-mongodb)
-
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service with Spring Boot Actuator](https://spring.io/guides/gs/actuator-service/)
-* [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
 
 ### Additional Links
 These additional references should also help you:
